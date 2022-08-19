@@ -1,4 +1,5 @@
-let homeScore = 0
+document.getElementById("home-score-display").textContent = homeScore
+
 let guestScore = 0
 
 function addOne(){
